@@ -16,4 +16,4 @@ likes_chocolate=True
 eats_healthy=False
 print(likes_chocolate or eats_healthy)
 is_active=False
-print(not is_active)
+print(not is_active)    #True
