@@ -1,0 +1,71 @@
+<!--ჩასვით აუდიო ფაილი გვერდზე ისე, რომ იყოს controls (play/pause).-->
+<audio controls>
+    <source src="Me_at_the_zoo copy 2.ogg" type="audio/ogg" >
+</audio>
+
+
+<!--ჩასვით აუდიო, რომელიც:
+ავტომატურად იწყებს (autoplay)
+ხმა გამორთულია (muted)
+უსასრულოდ მეორდება (loop)-->
+
+
+<audio autoplay muted loop>
+    <source src="Me_at_the_zoo copy 2.ogg" type="audio/ogg" >
+</audio>
+
+
+<!--ჩასვით აუდიო რამდენიმე ფორმატში, რომ ყველა ბრაუზერი უჭერდეს მხარს:
+
+.mp3
+
+.ogg
+
+.wav
+და დაამატეთ fallback ტექსტი, თუ აუდიო არ იმუშავებს.-->
+
+
+<audio controls>
+    <source src="Me_at_the_zoo copy 2.mp3" type="audio/mp3">
+</audio>
+
+
+<audio  muted>
+    <source src="Me_at_the_zoo copy 2.ogg" type="audio/ogg" >
+</audio>
+
+
+<audio autoplay>
+    <source src="Me_at_the_zoo copy 2.wav" type="audio/wav" >
+</audio>
+
+
+<!--დაამატეთ აუდიო ტეგი, რომელსაც აქვს:
+title გამოჩნდეს ბრამოზე
+controls, autoplay, loop-->
+
+<h1>ME AT THE ZOO (audio)</h1>
+
+<audio controls autoplay loop>
+    <source src="Me_at_the_zoo copy 2.ogg" type="audio/ogg" >
+</audio>
+
+
+<!--შექმენით გვერდი, სადაც ერთდროულად არის ორი აუდიო ფაილი:
+
+პირველი მართვადი (controls)
+
+მეორე იწყება ავტომატურად, ხმა გამორთულია და უსასრულოდ მეორდება (autoplay muted loop)-->
+
+
+<audio controls>
+    <source src="Me_at_the_zoo copy 2.ogg" type="audio/ogg" >
+<audio autoplay muted loop>
+    <source src="Me_at_the_zoo copy 2.wav" type="audio/wav" >
+</audio>
+</audio>
+
+
+
+
+
